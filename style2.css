@@ -1,0 +1,64 @@
+body {
+	background: linear-gradient(-45deg, #522517, #8b4c70, #c2649a, #e4c7b7, #e4dfd9);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.headshot {
+    border-radius: 50%;
+    align-items: center;
+}
+
+.h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.container {
+    padding: 0;
+    margin-top: 300px;
+}
+
+.p {
+	font-family: "halcom", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.footer {
+	font-family: "halcom", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.h3 {
+	font-family: 'DM Serif Display', serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.footer {
+	margin-top: 0;
+}
+
+.ms-3 {
+	margin-right: 100px;
+}
+
+

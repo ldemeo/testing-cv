@@ -1,0 +1,160 @@
+.body {
+    background-color: #e4dfd9;
+}
+
+/* Heading Section */
+
+.img {
+    border-radius: 50%;
+    position: sticky;
+    align-items: center;
+    top: 0px;
+    left: 125px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+.heading {
+    background-color: #8b4c70;
+    position: fixed;
+    height: 1000px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.name {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    margin: 0;
+    font-size: 2.5rem;
+    color: #2e3236;
+    padding: 14px;
+    margin-bottom: -3%;
+}
+
+.subheading {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    color: #e4c7b7;
+    margin: 0;
+    margin-top: -10px;
+}
+
+h3 {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    letter-spacing: -1px;
+    line-height: 1;
+    color: #e4c7b7;
+}
+
+
+/* Details Section */
+
+.details {
+    font-family: 'DM Serif Display', serif;
+    color: #2e3236;
+    padding: 5px;
+    line-height: 0;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.p1 {
+    font-family: "halcom", sans-serif;
+    line-height: 1.2;
+    color: #e4c7b7;
+    text-align: center;
+    padding: 5px;
+}
+
+.button {
+    margin-left: 150px;
+}
+
+/* Profile Section */
+
+.grid-container {
+    display: grid;
+    padding-left: 368px;
+    gap: 10px;
+    grid-template:  2fr 2fr 2fr 1fr / 2fr 1fr;
+    grid-template-columns: auto 400px minmax(200px, 500px);
+}
+
+.first {
+    position: relative;
+    text-align: left;
+    background-color: #e4dfd9;
+    margin-top: 50px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+    width: 800px;
+    height: 500px;
+    grid-auto-rows: 300px;
+    width: 250%;
+}
+
+.bio-title {
+    font-family: 'DM Serif Display', serif;
+    position: relative;
+    text-align: left;
+    font-size: 1.8rem;
+    padding-left: 0px;
+    padding-top: 0px;
+    color: #2e323f;
+}
+
+.experience {
+    font-family: 'DM Serif Display', serif;
+    position: relative;
+    text-align: left;
+    font-size: 1.8rem;
+    margin-right: 00px;
+    padding-top: 0px;
+    color: #2e323f;
+}
+
+.title {
+    font-family: 'DM Serif Display', serif;
+    color: #2e323f;
+}
+
+
+/* Media Query */
+@media (max-width: 800px) and (max-width: 1200px) {
+
+    .img {
+        flex-direction: column;
+        left: 10px;
+        
+    }
+}   
+
+    .heading {
+        border-radius: 0;
+        margin: 0;
+        text-align: center;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .profile {
+        padding: 20px;
+    }
+
+    .button {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+  
